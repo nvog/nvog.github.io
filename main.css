@@ -1,0 +1,57 @@
+/* #title-container {
+  width: 500px;
+}
+
+#navigation-container {
+  width: 200px; 
+}
+ */
+.img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.name_title {
+  font-family: "Helvetica Neue";
+  position: relative;
+  top: 170px;
+  left: 100px;
+  max-width: 500px;
+}
+
+.navigation_menu {
+  clear: left;
+  font-family: "Helvetica Neue";
+  font-size: large;
+  float: left;
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 200px;
+}
+
+.navigation_menu td { 
+		padding: 5px;
+}
+
+.navigation_menu tr:hover {
+  background: gainsboro;
+}
+
+.navigation_menu a {
+  color: black;
+  text-decoration: none;
+}
+
+.content {
+  font-family: "Helvetica Neue";
+  position: relative;
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+  max-width: 500px;
+  min-width: 25em;
+	max-width: 33em;
+}
